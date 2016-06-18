@@ -22,7 +22,7 @@ $(function () {
 
 $(document).ready(function () {
     var skillz = [
-        'big five', 'Mighty Lion', 'majestic Elephant', ' cautious Leopard', 'wild Buffalo', 'charging Rhino'
+        'big five', 'mighty Lion', 'majestic Elephant', ' cautious Leopard', 'wild Buffalo', 'charging Rhino'
     ];
 
     var skillCount = 0;

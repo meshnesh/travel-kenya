@@ -39,6 +39,10 @@ nav li a {
     content: attr(data-content);
 }
 
+.small-11{
+    margin-top: 10%;
+    text-align: center;
+}
 
 /****************************MEDIA QUERIES************************************/
 
@@ -82,3 +86,13 @@ nav li a {
         margin: 0em;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    .small-11 {
+        margin-top: 25%;
+        text-align: center;
+    }
+}
+
+
+
