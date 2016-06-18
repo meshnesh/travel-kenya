@@ -1,3 +1,4 @@
+
 /************GENERAL STYLING***************/
 /*********************END OF G.S**********/
 
@@ -34,6 +35,9 @@ nav li a {
 
 /*****************END OF NAVIGATION SECTION***********/
 
+.mad-skillz:after {
+    content: attr(data-content);
+}
 
 
 /****************************MEDIA QUERIES************************************/

@@ -14,3 +14,34 @@ $(function () {
     });
 
 });
+
+
+
+// *********************************************
+// DIFFERENT TEXT
+
+$(document).ready(function () {
+    var skillz = [
+        'big five', 'Mighty Lion', 'majestic Elephant', ' cautious Leopard', 'wild Buffalo', 'charging Rhino'
+    ];
+
+    var skillCount = 0;
+
+    function changeSkillz() {
+        renderSkillz(skillCount);
+        if (skillCount < skillz.length - 1) {
+            skillCount++;
+        } else {
+            skillCount = 0;
+        }
+        setTimeout(function () {
+            changeSkillz();
+        }, 2500);
+    }
+
+    function renderSkillz(n) {
+        document.getElementById("skill").setAttribute("data-content", skillz[n]);
+    }
+    changeSkillz();
+
+});
