@@ -1,5 +1,24 @@
 
 /************GENERAL STYLING***************/
+h1, h2, h3, h4, h5, h6, p, input, textarea{
+    text-align: center;
+}
+.row{
+    padding-bottom: 5%;
+    text-align: center;
+}
+.medium-9 {
+    width: 60%;
+}
+.medium-3 {
+    width: 35%;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+
+.small-3{
+    padding-top: 15%;
+}
 /*********************END OF G.S**********/
 
 
@@ -44,17 +63,18 @@ nav li a {
     text-align: center;
 }
 
-
+img{
+    width: 300px;
+    height: 300px;
+}
 
 /*******************ABOUT SECTION***************/
 
 .firstcharacter {
-    float: left;
     color: #903;
     font-size: 100px;
     line-height: 60px;
     padding-top: 4px;
-    padding-right: 8px;
     padding-left: 3px;
     font-family: Georgia;
 }
